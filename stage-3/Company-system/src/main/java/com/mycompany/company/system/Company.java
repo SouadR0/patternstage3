@@ -1,26 +1,38 @@
-
+//LAYALI KHAYAT
 package com.mycompany.company.system;
-
 import java.util.ArrayList;
 
 
-public class Company {
+
+ public class Company {
     
-    public String name;
+     public String name;
     public Employee head;
-    ArrayList<Department> departments;
+      ArrayList<Department> departments;
+
+
     
-    public Company(String name, Employee head) {
+            public Company(String name, Employee head) {
         this.name = name;
         this.head = head;
-        this.departments = new ArrayList<>();
-    }
+                
+      this.departments = new ArrayList<>();
+
+                
+
     
-    public void addDepartment(Department department) {
-        this.departments.add(department);
-    }
+     }
     
-    public void removeDepartment(Department department) {
-        this.departments.remove(department);
-    }
-}
+            public void addDepartment(Department department) {
+                        this.departments.add(department);
+
+
+    
+     }
+    
+            public void removeDepartment(Department department) {
+                        this.departments.remove(department);
+    
+     }
+
+     }
