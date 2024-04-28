@@ -1,6 +1,4 @@
-
 package com.mycompany.company.system;
-
 
 public class Address {
     
@@ -15,21 +13,22 @@ public class Address {
         this.streetNo = streetNo;
         this.postalCode = postalCode;
     }
-    
+
     public String getStreetNo() {
         return this.streetNo;
     }
-    
+
     public String getCity() {
         return this.city;
     }
 
-    public String getState() {
+     public String getState() {
         return this.state;
     }
-    
+
     @Override
     public String toString() {
         return "Address{" + "city=" + city + ", state=" + state + ", streetNo=" + streetNo + ", postalCode=" + postalCode + '}';
     }
+
 }
