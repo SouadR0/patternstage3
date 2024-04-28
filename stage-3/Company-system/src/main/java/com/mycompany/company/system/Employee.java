@@ -1,55 +1,122 @@
 
+//LAYAN ALNOUMANI
+
 package com.mycompany.company.system;
 
 
-public class Employee{
-    
+
+
+
+
+
+
+
+public class Employee
+{
+
+
+
+
     public String name;
     private String id;
-    private double salary;
-    public int age;
+   private double salary;
+ public int age;
     private Address address;
     private AddressFormatter addressFormatter;
 
 
-    public Employee(String name, String id, double salary, int age, Address address) {
-        this.name = name;
-        this.id = id;
-        this.salary = salary;
+ public Employee(String name, String id, double salary, int age, Address address) 
+    {
+    
+
+      this.name = name;
+
+      this.id = id;
+       this.salary = salary;
         this.age = age;
         this.address = address;
-    }
 
-    public String getId() {
-        return id;
-    }
-
-    public double getSalary() {
-        return salary;
-    }
+  }
 
 
-    public Address getAddress() {
-        return address;
+
+
+ public String getId() {
+
+     return id;
+
+
+   }
+
+
+
+
+   public double getSalary() {
+
+         return salary;
+    
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
+ public Address getAddress() 
+    {
+   return address;
 
-    public void setSalary(double salary) {
-        this.salary = salary;
-    }
+  }
+    
 
-    public void setAddress(Address address) {
-        this.address = address;
-    }
+  
+    public void setId(String id) 
+    {
 
-    public void setAddressFormatter(AddressFormatter addressFormatter) {
-        this.addressFormatter = addressFormatter;
-    }
+  this.id = id;
+  }
 
-    public String formatAddress() {
-        return this.addressFormatter.formatAddress();
-    }
+
+        
+
+    public void setSalary(double salary) 
+    {
+
+
+     this.salary = salary;
+
+
 }
+
+    
+
+
+    public void setAddress(Address address) 
+    {
+
+
+   this.address = address;
+
+   }
+
+    
+      public void setAddressFormatter(AddressFormatter addressFormatter)
+    {
+
+  this.addressFormatter = addressFormatter;
+
+
+
+    }
+
+
+
+    public String formatAddress()
+    {
+   
+   return this.addressFormatter.formatAddress();
+
+
+
+ }
+
+ }//END
+
+
+    
+ 
