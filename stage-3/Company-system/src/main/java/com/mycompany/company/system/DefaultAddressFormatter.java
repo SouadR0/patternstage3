@@ -1,13 +1,16 @@
+//LAYALI KHAYAT
 
 package com.mycompany.company.system;
 
 
-public class DefaultAddressFormatter implements AddressFormatter{
+    public class DefaultAddressFormatter implements AddressFormatter{
 
     @Override
-    public String formatAddress(Address address) {
-       
-        return address.toString();
+  public String formatAddress(Address address) {
+     return address.toString();
+
+
+      }
     }
     
-}
+
